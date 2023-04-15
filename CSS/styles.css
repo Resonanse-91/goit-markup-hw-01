@@ -1,0 +1,89 @@
+body {
+    color: #ffffff;
+    background-color: rgba(135, 196, 216, 0.89);
+    font-size: 20px;
+    color: hotpink;
+}
+
+
+
+
+/* Base styles */
+
+.section {
+
+}
+
+.list {
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+ 
+
+
+
+
+/* Header styles */
+
+.header {
+}
+.nav {
+}
+.list {
+}
+.item {
+}
+
+
+
+/* Feature styles */
+
+.feature {
+}
+.feature-title {
+}
+.feature-list {
+}
+.feature-item {
+}
+.feature-desc {
+}
+
+
+
+/* Action styles */
+.actions {
+}
+.section {
+}
+.actions-title {
+}
+.actions-list {
+}
+.actions-item {
+}
+.actions-img {
+}
+
+/* Team styles */
+.command {
+}
+.section {
+}
+.command-title {
+}
+.command-list {
+}
+.command-item {
+}
+.command-img {
+}
+.command-worker {
+}
+.command-sub {
+}
