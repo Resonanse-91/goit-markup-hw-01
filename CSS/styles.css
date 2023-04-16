@@ -22,7 +22,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondary-txt-cl);
+    color: #FFFFFF;
 }
 
 .btn {
@@ -66,8 +66,9 @@ color: var(--main-txt-cl);
     color: var(--main-txt-cl);
 }
 
+/* Logo webstudio */
 
-.link-logo {
+.logo {
     font-family: var(--secondaty-font);
     font-weight: 800;
     font-size: 18px;
@@ -88,9 +89,8 @@ color: var(--main-txt-cl);
 }
 
 .logo-first {
-    color: var();
+    color: var(--main-txt-cl);
 }
-
 
 
 .nav {
@@ -128,6 +128,7 @@ color: var(--main-txt-cl);
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
+    text-decoration: none;
 }
 
 .text {
@@ -136,3 +137,4 @@ color: var(--main-txt-cl);
     line-height: 1.5;
     color: var(--main-footer-cl);
 }
+
