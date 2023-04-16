@@ -34,10 +34,11 @@ body {
     background: var(--logo-txt-cl);
 }
 
-
+.link,
 .link-logo,
-.poster-position,
-.poster-subtitle {
+.poster-section,
+.link-list,
+.logo {
     text-decoration: none;
 }
 
