@@ -1,89 +1,56 @@
-body {
-    color: #ffffff;
-    background-color: rgba(135, 196, 216, 0.89);
-    font-size: 20px;
-    color: hotpink;
-}
+:root {
+	/* Color */
+    --secondary-txt-cl: #434455;
+    --main-txt-cl: #2E2F42;
 
+    /* Fonts */
+    --primary-font: Roboto;
+    --secondaty-font: Raleway
 
-
-
-/* Base styles */
-
-.section {
-
+    /* Others */
 }
 
 .list {
+    list-style: none;
+}
 
+body {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl);
+}
+
+.btn {
+    font-family: inherit;
 }
 
 .link {
     text-decoration: none;
 }
 
-
- 
-
-
-
-
-/* Header styles */
-
-.header {
-}
-.nav {
-}
-.list {
-}
-.item {
-}
-
-
-
-/* Feature styles */
-
-.feature {
-}
-.feature-title {
-}
-.feature-list {
-}
-.feature-item {
-}
-.feature-desc {
-}
-
-
-
-/* Action styles */
-.actions {
-}
 .section {
-}
-.actions-title {
-}
-.actions-list {
-}
-.actions-item {
-}
-.actions-img {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color: var(--main-txt-cl);
 }
 
-/* Team styles */
-.command {
+.title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--main-txt-cl);
 }
-.section {
+
+.desc {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-txt-cl);
 }
-.command-title {
-}
-.command-list {
-}
-.command-item {
-}
-.command-img {
-}
-.command-worker {
-}
-.command-sub {
-}
+
