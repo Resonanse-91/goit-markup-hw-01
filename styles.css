@@ -130,8 +130,13 @@ body {
 }
 
 /* Team section */
-.team-section,
+.team-section {
+    background: var(--main-footer-cl);
+}
+
 .team-title {
+    text-align: center;
+    text-transform: capitalize;
     background: var(--main-footer-cl);
 }
 
