@@ -112,6 +112,11 @@ body {
     background-color: var(--btn-f-bg);
 }
 
+.link-list:hover,
+.link-list:focus {
+    color:var(--btn-f-bg)
+}
+
 
 
 .title,
