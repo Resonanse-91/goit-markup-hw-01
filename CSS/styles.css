@@ -26,7 +26,6 @@ body {
 }
 
 .btn {
-    font-family: var(--primary-font);
     width: 169px;
     height: 56px;
     left: 636px;
