@@ -5,7 +5,7 @@
     --logo-txt-cl: #4D5AE5; 
     --main-footer-cl: #F4F4FD;
     --header-cl: #FFFFFF; 
-    
+    --btn-f-bg: #404BBF;
 
 
 
@@ -200,8 +200,6 @@ color: var(--main-txt-cl);
     background: var(--main-txt-cl);
 }
 
-
-
 .text {
     font-weight: 400;
     font-size: 16px;
@@ -209,3 +207,64 @@ color: var(--main-txt-cl);
     color: var(--main-footer-cl);
 }
 
+/* ----Portfolio---- */
+
+/* Navigator section */
+
+.navigation-btn {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    width: 69px;
+    height: 48px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--header-cl);
+    background: var(--btn-f-bg);
+}
+
+.poster-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-cl);    
+}
+
+.navigator-btn {
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 48px;
+    background: var(--main-footer-cl);
+    color: var(--logo-txt-cl);
+}
+
+.main {
+    background-color: var(--header-cl);
+}
+
+.poster-subtitle {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-cl);
+}
+
+.poster-position {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;    
+    color: var(--secondary-txt-cl);
+}
+
+.navigator-section {
+    text-decoration: none;
+}
