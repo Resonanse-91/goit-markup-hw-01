@@ -4,6 +4,8 @@
     --main-txt-cl: #2E2F42;
     --logo-txt-cl: #4D5AE5; 
     --main-footer-cl: #F4F4FD;
+    --header-cl: #FFFFFF;   
+
 
 
     /* Fonts */
@@ -36,9 +38,8 @@ body {
 .link,
 .link-logo,
 .poster-section,
-.link-list,
-.logo {
-    text-decoration: none;
+.link-list {
+    
 }
 
 .section {
@@ -76,6 +77,7 @@ color: var(--main-txt-cl);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-txt-cl);
+    text-decoration: none;
 }
 
 .logo-second {
