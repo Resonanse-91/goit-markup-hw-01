@@ -86,7 +86,9 @@ body {
 /* Main title */
 
 .main-title {
+    font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
@@ -96,10 +98,14 @@ body {
 }
 
 .btn {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
     width: 169px;
     height: 56px;
     left: 636px;
     top: 428px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--header-cl);
     background: var(--logo-txt-cl);
