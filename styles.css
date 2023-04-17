@@ -38,7 +38,7 @@ body {
     background: var(--main-footer-cl);
 }
 
-.link-cl {
+.link {
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
