@@ -23,8 +23,6 @@
     background: var(--header-cl);
 }
 
-
-
 .list {
     list-style: none;
 }
@@ -46,8 +44,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--logo-text-cl);
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 .section {
