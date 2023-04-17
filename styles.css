@@ -15,6 +15,13 @@
     /* Others */
 }
 
+/* Header */
+.header {
+    background: var(--header-cl);
+}
+
+
+
 .list {
     list-style: none;
 }
@@ -27,30 +34,80 @@ body {
     color: #FFFFFF;
 }
 
+.link {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--logo-text-cl);
+    text-decoration: none;
+    
+}
+
+.section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-cl);
+}
+
+.link-list{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl);
+    text-decoration: none;
+}
+
+/* Logo webstudio */
+/* top line */
+.logo {
+    font-family: var(--secondaty-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-txt-cl);
+    text-decoration: none;
+}
+
+.logo-first {
+    color: var(--main-txt-cl);
+}
+
+/* Main title */
+
+.main-title {
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero {
+    background: var(--main-txt-cl);
+}
+
 .btn {
     width: 169px;
     height: 56px;
     left: 636px;
     top: 428px;
+    letter-spacing: 0.04em;
+    color: var(--header-cl);
     background: var(--logo-txt-cl);
 }
 
-.link,
-.link-logo,
-.poster-section,
-.link-list {
-    
+
+.section-title {
+    background: var(--header-cl);
 }
 
-.section {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-color: var(--main-txt-cl);
-}
-
-.title {
+.title,
+.poster-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -64,22 +121,17 @@ color: var(--main-txt-cl);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-txt-cl);
+    color: var(--secondary-txt-cl);
 }
 
-/* Logo webstudio */
 
-.logo {
-    font-family: var(--secondaty-font);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--logo-txt-cl);
-    text-decoration: none;
+
+/* Team section */
+.command section{
+    background: var(--main-footer-cl);
 }
 
+/* Footer */
 .logo-second {
     font-family: var(--secondaty-font);
     font-weight: 800;
@@ -90,9 +142,7 @@ color: var(--main-txt-cl);
     color: var(--main-footer-cl);
 }
 
-.logo-first {
-    color: var(--main-txt-cl);
-}
+
 
 
 .nav {
@@ -103,13 +153,7 @@ color: var(--main-txt-cl);
     color: var(--main-txt-cl);
 }
 
-.link-list {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--secondary-txt-cl);
-}
 
-.hero,
 .link-footer,
 .footer {
     width: 1440px;
@@ -119,14 +163,9 @@ color: var(--main-txt-cl);
     background: var(--main-txt-cl);
 }
 
-.main-title {
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
 
-.section-title,
-.poster-subtitle {
+
+.section-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
