@@ -217,7 +217,7 @@ color: var(--main-txt-cl);
 
 
 .poster-subtitle {
-    font-family: 'Roboto';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -227,10 +227,11 @@ color: var(--main-txt-cl);
 }
 
 .navigator-btn {
-    justify-content: center;
-    align-items: center;
-    width: 116px;
-    height: 48px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background: var(--main-footer-cl);
     color: var(--logo-txt-cl);
     cursor: pointer;
