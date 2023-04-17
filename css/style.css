@@ -117,6 +117,11 @@ body {
     color:var(--btn-f-bg)
 }
 
+.link-logo:hover,
+.link-logo:focus {
+    color:var(--btn-f-bg)
+}
+
 
 
 .title,
