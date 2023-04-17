@@ -4,7 +4,7 @@
     --main-txt-cl: #2E2F42;
     --logo-txt-cl: #4D5AE5; 
     --main-footer-cl: #F4F4FD;
-    --background-color: #FFFFFF; 
+    --header-cl: #FFFFFF; 
     
 
 
@@ -20,7 +20,7 @@
 
 /* Header */
 .header {
-    background-color: var(--header-cl);
+    background: var(--header-cl);
 }
 
 
@@ -35,7 +35,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--header-cl);
-    background-color: var(--main-footer-cl);
+    background: var(--main-footer-cl);
 }
 
 .link {
@@ -102,7 +102,7 @@ body {
     top: 428px;
     letter-spacing: 0.04em;
     color: var(--header-cl);
-    background-color: var(--logo-txt-cl);
+    background: var(--logo-txt-cl);
 }
 
 
@@ -129,23 +129,23 @@ body {
 /* Action section */
 
 .actions-section {
-    background-color: var(--header-cl);
+    background: var(--header-cl);
 }
 
 /* Team section */
 .team-section {
-    background-color: var(--main-footer-cl);
+    background: var(--main-footer-cl);
 }
 
 .team-title {
     text-align: center;
     text-transform: capitalize;
-    background-color: var(--header-cl);
+    background: var(--main-footer-cl);
 }
 
 /* Feature section */
 .feature-section {
-    background-color: var(--header-cl);
+    background: var(--header-cl);
 }
 
 .section-title {
@@ -186,7 +186,7 @@ color: var(--main-txt-cl);
     height: 200px;
     left: 61px;
     top: 80px;
-    background-color: var(--main-txt-cl);
+    background: var(--main-txt-cl);
 }
 
 
