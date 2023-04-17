@@ -4,7 +4,8 @@
     --main-txt-cl: #2E2F42;
     --logo-txt-cl: #4D5AE5; 
     --main-footer-cl: #F4F4FD;
-    --header-cl: #FFFFFF;   
+    --background-color: #FFFFFF; 
+    
 
 
 
@@ -13,11 +14,13 @@
     --secondaty-font: Raleway, sans-serif;
 
     /* Others */
+
+
 }
 
 /* Header */
 .header {
-    background: var(--header-cl);
+    background-color: var(--header-cl);
 }
 
 
@@ -32,7 +35,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--header-cl);
-    background: var(--main-footer-cl);
+    background-color: var(--main-footer-cl);
 }
 
 .link {
@@ -99,7 +102,7 @@ body {
     top: 428px;
     letter-spacing: 0.04em;
     color: var(--header-cl);
-    background: var(--logo-txt-cl);
+    background-color: var(--logo-txt-cl);
 }
 
 
@@ -126,23 +129,23 @@ body {
 /* Action section */
 
 .actions-section {
-    background: var(--header-cl);
+    background-color: var(--header-cl);
 }
 
 /* Team section */
 .team-section {
-    background: var(--main-footer-cl);
+    background-color: var(--main-footer-cl);
 }
 
 .team-title {
     text-align: center;
     text-transform: capitalize;
-    background: var(--header-cl);
+    background-color: var(--header-cl);
 }
 
 /* Feature section */
 .feature-section {
-    background: var(--header-cl);
+    background-color: var(--header-cl);
 }
 
 .section-title {
@@ -183,7 +186,7 @@ color: var(--main-txt-cl);
     height: 200px;
     left: 61px;
     top: 80px;
-    background: var(--main-txt-cl);
+    background-color: var(--main-txt-cl);
 }
 
 
@@ -203,6 +206,3 @@ color: var(--main-txt-cl);
     color: var(--main-footer-cl);
 }
 
-
-
-background: #FFFFFF;
