@@ -31,6 +31,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--header-cl);
     background: var(--main-footer-cl);
 }
 
@@ -102,9 +103,7 @@ body {
 }
 
 
-.section-title {
-    background: var(--header-cl);
-}
+
 
 .title,
 .poster-subtitle {
@@ -124,11 +123,21 @@ body {
     color: var(--secondary-txt-cl);
 }
 
+/* Action section */
 
+.actions-section {
+    background: var(--header-cl);
+}
 
 /* Team section */
-.command section{
+.team-section,
+.team-title {
     background: var(--main-footer-cl);
+}
+
+/* Feature section */
+.feature-section {
+    background: var(--header-cl);
 }
 
 /* Footer */
@@ -165,7 +174,7 @@ body {
 
 
 
-.section-title {
+.team-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -179,3 +188,7 @@ body {
     line-height: 1.5;
     color: var(--main-footer-cl);
 }
+
+
+
+background: #FFFFFF;
