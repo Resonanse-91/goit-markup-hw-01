@@ -33,7 +33,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
-    background: var(--main-footer-cl);
+    background: var(--header-cl);
 }
 
 .link {
@@ -147,6 +147,10 @@ body {
     text-align: center;
     text-transform: capitalize;
     background: var(--main-footer-cl);
+}
+
+.command-item {
+    background-color: var(--header-cl);
 }
 
 /* Feature section */
