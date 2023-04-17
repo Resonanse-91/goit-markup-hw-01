@@ -104,8 +104,13 @@ body {
     letter-spacing: 0.04em;
     color: var(--header-cl);
     background: var(--logo-txt-cl);
+    cursor: pointer;    
 }
 
+.btn:hover,
+.btn:focus {
+    background-color: var(--btn-f-bg);
+}
 
 
 
