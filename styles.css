@@ -253,6 +253,7 @@ color: var(--main-txt-cl);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
+    text-decoration: none;
 }
 
 .poster-position {
@@ -263,8 +264,6 @@ color: var(--main-txt-cl);
     line-height: 1.5;
     letter-spacing: 0.02em;    
     color: var(--secondary-txt-cl);
-}
-
-.navigator-section {
     text-decoration: none;
 }
+
