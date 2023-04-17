@@ -268,3 +268,7 @@ color: var(--main-txt-cl);
     text-decoration: none;
 }
 
+.poster-item {
+    text-decoration: none;
+}
+
