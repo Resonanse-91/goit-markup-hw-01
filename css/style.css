@@ -51,6 +51,10 @@ body {
     color: var(--secondary-txt-cl);
 }
 
+.item {
+    color: var(--main-txt-cl);
+}
+
 .section {
     font-weight: 700;
     font-size: 36px;
