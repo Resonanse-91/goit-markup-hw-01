@@ -81,7 +81,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--main-txt-cl);
+    color: var(--logo-txt-cl);
     text-decoration: none;
 }
 
