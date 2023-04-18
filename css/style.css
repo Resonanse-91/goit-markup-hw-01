@@ -53,6 +53,10 @@ body {
     color: var(--secondary-txt-cl);
 }
 
+.item {
+    color: var(--main-txt-cl);
+}
+
 
 
 .section {
