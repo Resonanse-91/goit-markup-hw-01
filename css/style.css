@@ -120,11 +120,6 @@ body {
     color:var(--btn-f-bg)
 }
 
-.link:hover,
-.link:focus {
-    color: var(--btn-f-bg);
-}
-
 
 .title,
 .poster-subtitle {
