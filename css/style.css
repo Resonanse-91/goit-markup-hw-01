@@ -36,7 +36,8 @@ body {
 }
 
 .link {
-    text-decoration: none;    
+    text-decoration: none;
+    color: var(--main-txt-cl);    
 }
 
 
@@ -53,9 +54,7 @@ body {
     color: var(--secondary-txt-cl);
 }
 
-.item {
-    color: var(--main-txt-cl);
-}
+
 
 
 
