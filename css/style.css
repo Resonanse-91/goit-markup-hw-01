@@ -39,6 +39,7 @@ body {
 }
 
 .nav-link {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em
@@ -118,6 +119,11 @@ body {
 .link-list:hover,
 .link-list:focus {
     color:var(--btn-f-bg)
+}
+
+.link:hover,
+.link:focus {
+    color: var(--btn-f-bg);
 }
 
 
