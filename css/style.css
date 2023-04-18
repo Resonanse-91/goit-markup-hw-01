@@ -54,7 +54,9 @@ body {
     color: var(--secondary-txt-cl);
 }
 
-
+.item {
+    color: var(--secondary-txt-cl);
+}
 
 
 
