@@ -94,6 +94,10 @@ body {
     color: var(--main-txt-cl);
 }
 
+.link-list {
+    color: var(--secondary-txt-cl);
+}
+
 /* Main title */
 
 .main-title {
